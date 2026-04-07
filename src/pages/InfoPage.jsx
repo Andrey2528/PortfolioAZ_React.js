@@ -25,15 +25,6 @@ const InfoPage = () => {
         aboutText: infoSettings.aboutText,
         experienceData: experienceDataDB,
     });
-    const skillsList = skillsListDB.map((item, index) => {
-        return (
-            <li className="info__item">
-                <p className="info__text info_description" key={item.id}>
-                    {item.title}
-                </p>
-            </li>
-        );
-    });
 
     useEffect(() => {
         const loadData = async () => {
