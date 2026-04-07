@@ -1,3 +1,3 @@
 export const PAGE_HOME = '/';
 export const PAGE_INFO = '/InfoPage';
-export const PAGE_CERTIFICATES = '/certificates';
+export const PAGE_CERTIFICATES = '/SertificatePage';
