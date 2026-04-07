@@ -1,4 +1,4 @@
-import { createHashRouter } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 
 import HomePage from '@/pages/HomePage.jsx';
 import InfoPage from '@/pages/InfoPage.jsx';
@@ -20,4 +20,4 @@ const routes = [
     },
 ];
 
-export default createHashRouter(routes);
+export default createBrowserRouter(routes);
