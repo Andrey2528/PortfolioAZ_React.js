@@ -1,17 +1,18 @@
-@import 'partials/reset';
+@use 'partials/_reset.scss';
+@use 'partials/_fonts.scss';
+@use 'partials/_header.scss';
+@use 'partials/_footer.scss';
+@use 'partials/_buttons.scss';
+@use 'partials/_variables.scss';
+@use 'partials/_text.scss';
+@use 'partials/_general.scss';
 
-@import 'partials/_fonts';
-@import 'partials/_header';
-@import 'partials/_footer';
-@import 'partials/_buttons';
-@import 'partials/_variables';
-@import 'partials/_text';
-@import 'partials/_general';
+@use 'components/nav.scss';
+@use 'components/cardPortfolio.scss';
+@use 'components/info-modern.scss';
+@use 'components/dark-theme.scss';
+@use 'components/light-theme.scss';
+@use 'components/modal.scss';
+@use 'components/Loader.scss';
 
-@import 'components/nav.scss';
-@import 'components/cardPortfolio.scss';
-@import 'components/info.scss';
-@import 'components/dark-theme.scss';
-@import 'components/light-theme.scss';
-@import 'components/modal.scss';
-@import 'components/slider.scss';
+// Стилі адмінки винесені в окремий застосунок

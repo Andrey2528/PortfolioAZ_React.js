@@ -1,7 +1,16 @@
 import '@/styles/index.scss';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-const PortfolioCard = ({ id, title, subTitle, number, img, openModal }) => {
+const PortfolioCard = ({
+    id,
+    title,
+    subTitle,
+    number,
+    img,
+    openModal,
+    index = 0,
+}) => {
     const [isActive, setIsActive] = useState(false);
 
     const handleClick = () => {
@@ -10,10 +19,23 @@ const PortfolioCard = ({ id, title, subTitle, number, img, openModal }) => {
     };
 
     return (
-        <div
+        <motion.div
             id={id}
             className={`card ${isActive ? 'active' : ''}`}
             onClick={handleClick}
+            initial={{ opacity: 0, y: 20, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{
+                duration: 0.5,
+                delay: index * 0.1,
+                ease: 'easeOut',
+            }}
+            whileHover={{
+                y: -8,
+                scale: 1.02,
+                transition: { duration: 0.3 },
+            }}
+            whileTap={{ scale: 0.98 }}
         >
             <h3 className="card__title">{title}</h3>
             <div className="card__row">
@@ -23,7 +45,7 @@ const PortfolioCard = ({ id, title, subTitle, number, img, openModal }) => {
             <div className="card__miniature">
                 <img src={img} alt="" className="card__img" />
             </div>
-        </div>
+        </motion.div>
     );
 };
 

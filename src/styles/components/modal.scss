@@ -1,3 +1,5 @@
+@use '../partials/_variables.scss' as vars;
+
 .modal {
     display: flex;
     justify-content: center;
@@ -10,6 +12,11 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+    &__desc {
+        margin-bottom: 10px;
+    }
 
     &__content {
         border-radius: 8px;
@@ -19,10 +26,32 @@
         display: flex;
         flex-direction: row;
         padding: 10px;
-        @media (max-width: $maxMobile) {
+
+        @media (max-width: vars.$maxTablet) {
+            width: 95%;
+            height: 85%;
+            padding: 15px;
+        }
+
+        @media (max-width: vars.$maxMobile) {
             flex-direction: column;
+            width: 95%;
             height: 90%;
+            padding: 15px;
+            margin: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            border-radius: 12px;
+            max-height: calc(100vh - 40px);
+        }
+
+        @media (max-width: 480px) {
             width: 100%;
+            height: 100%;
+            margin: 0;
+            border-radius: 0;
+            padding: 20px;
+            max-height: 100vh;
         }
     }
 
@@ -36,6 +65,15 @@
         flex-direction: column;
         width: 100%;
         padding-right: 30px;
+
+        @media (max-width: vars.$maxTablet) {
+            padding-right: 20px;
+        }
+
+        @media (max-width: vars.$maxMobile) {
+            padding-right: 0;
+            padding-bottom: 20px;
+        }
     }
 
     &__row {
@@ -45,10 +83,12 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid $--button-hover;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid vars.$dark-theme-40;
 
             &:first-child {
-                border-top: 1px solid $--button-hover;
+                border-top: 1px solid vars.$dark-theme-40;
             }
 
             &:not(:first-child) {
@@ -63,29 +103,90 @@
     }
 
     img {
+        border-radius: vars.$border_radius_main;
         margin-right: 20px;
+        max-width: 100%;
+        height: auto;
+
+        @media (max-width: vars.$maxTablet) {
+            margin-right: 15px;
+        }
+
+        @media (max-width: vars.$maxMobile) {
+            margin-right: 0;
+            margin-bottom: 15px;
+            max-height: 300px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 480px) {
+            max-height: 250px;
+            margin-bottom: 20px;
+        }
     }
 
     &__close {
         position: absolute;
         top: 20px;
         right: 20px;
-
+        width: 24px;
+        height: 24px;
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
         display: flex;
         justify-content: center;
         align-items: center;
-
-        border-radius: 100px;
-        width: 24px;
-        height: 24px;
+        border-radius: 50%;
         cursor: pointer;
-        font-size: 24px; // Adjust font size to fit within the width and height
+        font-size: 18px;
+        border: 2px solid var(--border-color);
+        transition: all 0.3s ease;
+        z-index: 1001;
+
+        @media (max-width: vars.$maxTablet) {
+            top: 15px;
+            right: 15px;
+            width: 28px;
+            height: 28px;
+            font-size: 20px;
+        }
+
+        @media (max-width: vars.$maxMobile) {
+            top: 10px;
+            right: 10px;
+            width: 32px;
+            height: 32px;
+            font-size: 22px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border: none;
+        }
+
+        @media (max-width: 480px) {
+            top: 15px;
+            right: 15px;
+            width: 36px;
+            height: 36px;
+            font-size: 24px;
+        }
 
         &:hover,
         &:focus {
-            color: black;
+            background-color: var(--bg-hover);
+            color: var(--text-primary);
+            transform: scale(1.1);
             text-decoration: none;
             cursor: pointer;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        span {
+            width: 12px;
+            height: 2px;
+            display: block;
         }
     }
 
@@ -93,13 +194,31 @@
         &__title {
             margin: 0;
             margin-bottom: 6px;
-        }
-    }
-    /* Додайте цей CSS у свій файл стилів */
-    .body-lock {
-        overflow: hidden;
-    }
 
-    .alignCenter {
+            @media (max-width: vars.$maxMobile) {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+
+            @media (max-width: 480px) {
+                font-size: 1.1rem;
+                margin-bottom: 8px;
+            }
+        }
+
+        &__desc {
+            padding-right: 15px;
+
+            @media (max-width: vars.$maxMobile) {
+                padding-right: 0;
+                margin-bottom: 15px;
+                line-height: 1.5;
+            }
+
+            @media (max-width: 480px) {
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+        }
     }
 }

@@ -1,44 +1,225 @@
-@import '../partials/variables';
+@use '../partials/_variables.scss' as vars;
 
 .light {
-    background: $--bg-light;
-    color: $--text-light;
+    --text-primary: #{vars.$light-theme-black};
+    --text-secondary: #{vars.$light-theme-10};
+    --bg-card: #{vars.$light-theme-60};
+    --border-color: #{vars.$light-theme-50};
+    --bg-hover: #{vars.$light-theme-50};
+
+    background: vars.$light-theme-white;
+    color: vars.$light-theme-black;
+
+    .loader {
+        background: vars.$light-theme-white;
+    }
 
     .main {
         &__title {
-            color: $--text-light;
+            color: vars.$light-theme-black;
         }
     }
+
+    .info {
+        &__title {
+            color: vars.$light-theme-black;
+        }
+        &__subtitle {
+            color: vars.$light-theme-black;
+        }
+        &__text {
+            color: vars.$light-theme-black;
+        }
+    }
+
+    // InfoPage modern styles
+    .info-modern {
+        .section-title {
+            color: vars.$light-theme-black;
+        }
+
+        .about-subtitle {
+            background: rgb(41, 41, 41);
+        }
+
+        .about-description {
+            color: vars.$light-theme-10;
+        }
+
+        .stat-card {
+            background: vars.$light-theme-60;
+            border-color: vars.$light-theme-50;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+            &:hover {
+                background: vars.$light-theme-50;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            }
+
+            .stat-number {
+                color: #3b82f6;
+            }
+
+            .stat-label {
+                color: vars.$light-theme-10;
+            }
+        }
+
+        .filter-btn {
+            border-color: vars.$light-theme-50;
+            color: vars.$light-theme-black;
+
+            &:hover {
+                border-color: #3b82f6;
+                color: #3b82f6;
+                background: vars.$light-theme-50;
+            }
+
+            &.active {
+                background: #3b82f6;
+                border-color: #3b82f6;
+                color: white;
+            }
+        }
+
+        .skills-table-container {
+            background: vars.$light-theme-60;
+            border-color: vars.$light-theme-50;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .table-row {
+            border-color: vars.$light-theme-50;
+
+            &:hover {
+                background: vars.$light-theme-50;
+            }
+        }
+
+        .skill-title {
+            color: vars.$light-theme-black;
+        }
+
+        .progress-bar-container {
+            background: vars.$light-theme-50;
+        }
+
+        .progress-text {
+            color: vars.$light-theme-black;
+        }
+
+        .timeline-content {
+            background: vars.$light-theme-60;
+            border-color: vars.$light-theme-50;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+            &:hover {
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+                border-color: #3b82f6;
+            }
+        }
+
+        .company-name {
+            color: vars.$light-theme-black;
+        }
+
+        .position-title {
+            color: #3b82f6;
+        }
+
+        .description {
+            color: vars.$light-theme-10;
+        }
+
+        .projects-count {
+            color: vars.$light-theme-black;
+        }
+
+        .tech-label {
+            color: vars.$light-theme-black;
+        }
+
+        .marker-dot {
+            background: #3b82f6;
+            border-color: vars.$light-theme-60;
+            box-shadow: 0 0 0 3px #3b82f6;
+        }
+
+        .marker-line {
+            background: vars.$light-theme-50;
+        }
+    }
+
     .navbar__nav__link {
-        color: $--number;
+        color: vars.$light-theme-10;
     }
+
     .active_li {
-        color: $--button-active;
+        color: vars.$dark-theme-black;
     }
+
     .card {
-        border-top: 1px solid $--border-light;
+        border-top: 1px solid vars.$dark-theme-50-light;
         &__miniature {
-            background-color: $--border-radius;
+            background-color: vars.$dark-theme-50-radius;
         }
         &__title {
-            color: $--button-active;
+            color: vars.$dark-theme-60;
         }
         &__number {
-            color: $--inactive;
+            color: vars.$dark-theme-30;
         }
     }
     .modal {
+        &__img {
+            background: vars.$light-theme-40;
+            transition: opacity 0.3s ease;
+        }
         &__content {
-            background-color: $--border-radius;
+            background-color: vars.$dark-theme-50-radius;
         }
         &__close {
-            background-color: $--border-light;
+            background-color: vars.$light-theme-50;
+            span {
+                background-color: vars.$light-theme-10;
+            }
+            &:hover {
+                background-color: vars.$light-theme-40;
+            }
         }
         &__row {
             &-border {
-                border-top: 1px solid $--border-light;
-                border-bottom: 1px solid $--border-light;
+                border-top: 1px solid vars.$dark-theme-50-light;
+                border-bottom: 1px solid vars.$dark-theme-50-light;
             }
         }
+    }
+    .filter__label {
+        color: vars.$light-theme-black;
+    }
+    .filter__select {
+        background: vars.$dark-theme-50-radius;
+        color: vars.$light-theme-black;
+        border: 1px solid vars.$dark-theme-50-light;
+    }
+    .filter__select:hover,
+    .filter__select:focus {
+        border-color: vars.$light-theme-20;
+        background: vars.$light-theme-white;
+    }
+    .filter__checkbox {
+        accent-color: vars.$light-theme-20;
+    }
+    .filter__reset {
+        background: vars.$light-theme-20;
+        color: vars.$light-theme-white;
+        border: 1px solid vars.$dark-theme-50-light;
+    }
+    .filter__reset:hover {
+        background: vars.$light-theme-20;
+        border-color: vars.$light-theme-20;
+    }
+    .filter__container {
+        border-top: 1px solid vars.$dark-theme-50-light;
     }
 }

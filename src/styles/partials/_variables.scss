@@ -49,23 +49,29 @@ $base_body_line_height: 114%;
 $base_font_weight: 400;
 
 /*--color--*/
-$--active:  rgba(196, 196, 196, 1);
-$--number: rgba(153, 153, 153, 1);
-$--inactive: rgba(107, 107, 107, 1);
-$--button-hover: rgba(69, 69, 69, 1);
-$--border: rgba(51, 51, 51, 1);
-$--button-active: rgba(41, 41, 41, 1);
+$dark-theme-10: rgba(196, 196, 196, 1);
+$dark-theme-20: rgba(153, 153, 153, 1);
+$dark-theme-30: rgba(107, 107, 107, 1);
+$dark-theme-40: rgba(69, 69, 69, 1);
+$dark-theme-50: rgba(51, 51, 51, 1);
+$dark-theme-60: rgba(41, 41, 41, 1);
 
 //dark mode
-$--bg-dark: rgba(28, 28, 28, 1);
-$--text-dark: rgba(255, 255, 255, 1);
+$dark-theme-black: rgba(28, 28, 28, 1);
+$dark-theme-white: rgba(255, 255, 255, 1);
 
 //light mode
-$--bg-light: rgba(250, 250, 250, 1);
-$--text-light: rgba(41, 41, 41, 1);
-$--border-radius: rgba(247, 247, 247, 1);
-$--border-light: rgba(235, 235, 235, 1);
+$light-theme-white: rgba(250, 250, 250, 1);
+$light-theme-black: rgba(41, 41, 41, 1);
+$dark-theme-50-radius: rgba(247, 247, 247, 1);
+$dark-theme-50-light: rgba(235, 235, 235, 1);
 
+$light-theme-10: rgba(153, 153, 153, 1);
+$light-theme-20: rgba(107, 107, 107, 1);
+$light-theme-30: rgba(196, 196, 196, 1);
+$light-theme-40: rgba(209, 209, 209, 1);
+$light-theme-50: rgba(235, 235, 235, 1);
+$light-theme-60: rgba(247, 247, 247, 1);
 
 /*------border------*/
 $border_radius_main: 8px;

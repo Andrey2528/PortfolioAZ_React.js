@@ -1,3 +1,4 @@
+@use '../partials/_variables.scss' as vars;
 .navbar__nav {
     display: flex;
     flex-direction: column;
@@ -7,6 +8,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 50px;
+
         &-wrapper {
             display: flex;
             flex-direction: column;
@@ -17,16 +21,19 @@
         }
     }
     .navbar__nav__link {
-        color: $--active;
+        color: vars.$dark-theme-10;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 133%;
         cursor: pointer;
+        &:hover {
+            transform: scale(1.05);
+        }
     }
     .active_li {
-        color: $--text-dark;
+        color: vars.$dark-theme-white;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
@@ -37,14 +44,11 @@
         &__list {
             display: flex;
             flex-direction: column;
-            @media (max-width: 768px) {
-                display: none;
-            }
         }
         &__item {
         }
         &__btn {
-            color: $--text-dark;
+            color: vars.$dark-theme-white;
             font-family: Inter;
             font-size: 12px;
             font-style: normal;
@@ -52,6 +56,12 @@
             line-height: 133%;
             text-align: left;
             cursor: pointer;
+        }
+    }
+    .effect {
+        &:hover {
+            background-color: #0056b3;
+            transform: scale(1.03);
         }
     }
 }
