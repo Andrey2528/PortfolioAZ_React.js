@@ -1,6 +1,6 @@
 import i18next from '@/i18n';
 import img1 from '@/assets/images/portfolioIMG/portfolioImg1.png';
-import img2 from '@/assets/images/portfolioIMG/portfolioImg2.png';
+import img2 from '@/assets/images/portfolioIMG/portfolioImg2.webp';
 import img3 from '@/assets/images/portfolioIMG/portfolioImg3.png';
 import img4 from '@/assets/images/portfolioIMG/portfolioImg4.png';
 import img5 from '@/assets/images/portfolioIMG/portfolioImg5.png';
@@ -31,7 +31,7 @@ export const portfolioCard = [
             'SCSS' +
             ',' +
             'BEM' +
-             ',' +
+            ',' +
             'Framer Motion' +
             ',' +
             'i18next' +
@@ -50,16 +50,7 @@ export const portfolioCard = [
         year: '2026',
         design: '-',
         role: i18next.t('portfolioCard.role1'),
-        tag:
-            'HTML' +
-            ',' +
-            'CSS' +
-            ',' +
-            'JS' +
-            ',' +
-            'jQuery' +
-            ',' +
-            'BEM',
+        tag: 'HTML' + ',' + 'CSS' + ',' + 'JS' + ',' + 'jQuery' + ',' + 'BEM',
         platform: i18next.t('portfolioCard.platform2'),
         type: i18next.t('portfolioCard.type2'),
         url: '',
@@ -73,12 +64,7 @@ export const portfolioCard = [
         year: '2026',
         design: '+',
         role: i18next.t('portfolioCard.role1'),
-        tag:
-            'React.js' +
-            ',' +
-            'SCSS' +
-            ',' +
-            'BEM',
+        tag: 'React.js' + ',' + 'SCSS' + ',' + 'BEM',
         platform: i18next.t('portfolioCard.platform2'),
         type: i18next.t('portfolioCard.type2'),
         url: 'https://arcana-noctis.vercel.app/',
@@ -92,12 +78,7 @@ export const portfolioCard = [
         year: '2025',
         design: '+',
         role: i18next.t('portfolioCard.role1'),
-        tag:
-            'React.js' +
-            ',' +
-            'SCSS' +
-            ',' +
-            'BEM',
+        tag: 'React.js' + ',' + 'SCSS' + ',' + 'BEM',
         platform: i18next.t('portfolioCard.platform2'),
         type: i18next.t('portfolioCard.type2'),
         url: 'https://skyntr.vercel.app/',
