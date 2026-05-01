@@ -329,36 +329,6 @@ export const portfolioCard = [
         design: '-',
         role:
             i18next.t('portfolioCard.role1') +
-            ',' +
-            i18next.t('portfolioCard.role3') +
-            ',' +
-            i18next.t('portfolioCard.role4'),
-        tag:
-            'HTML' +
-            ', ' +
-            'SCSS' +
-            ', ' +
-            'JS' +
-            ', ' +
-            'React.js' +
-            ', ' +
-            'BEM',
-        platform: i18next.t('portfolioCard.platform2'),
-        type: i18next.t('portfolioCard.type2'),
-        url: i18next.t('portfolioCard.urlNotAviable'),
-        img: img6,
-        thumb: thumb6,
-        description: i18next.t('portfolioCard.description.description6'),
-        timeToEndWork: '15' + ' ' + i18next.t('portfolioCard.timeWork.Hours2'),
-    },
-    {
-        id: 5,
-        title: i18next.t('portfolioCard.title.title5'),
-        subTitle: i18next.t('portfolioCard.subTitle'),
-        year: '2022',
-        design: '-',
-        role:
-            i18next.t('portfolioCard.role1') +
             ', ' +
             i18next.t('portfolioCard.role3') +
             ', ' +

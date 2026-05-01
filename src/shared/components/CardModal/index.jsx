@@ -113,7 +113,7 @@ const Modal = ({ onClose, card }) => {
                             <p className="card__number card__desc alignCenter">
                                 {label}:{' '}
                             </p>
-                            <p className="navbar__nav__link">{value}</p>
+                            <span className="navbar__nav__link">{value}</span>
                         </motion.div>
                     ))}
                 </div>
