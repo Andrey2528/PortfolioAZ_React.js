@@ -50,6 +50,7 @@ const CardWrapper = () => {
                         timeToEndWork={card.timeToEndWork}
                         openModal={() => openModal(card)}
                         index={index}
+                        isLCP={index === 0}
                     />
                 ))}
             </motion.div>

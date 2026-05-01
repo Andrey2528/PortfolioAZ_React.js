@@ -11,6 +11,7 @@ const PortfolioCard = ({
     thumb,
     openModal,
     index = 0,
+    isLCP = false,
 }) => {
     const [isActive, setIsActive] = useState(false);
 
@@ -44,7 +45,13 @@ const PortfolioCard = ({
                 <span className="card__number card__desc">{number}</span>
             </div>
             <div className="card__miniature">
-                <img src={thumb || img} alt="" className="card__img" />
+                <img
+                    src={thumb || img}
+                    alt=""
+                    className="card__img"
+                    fetchPriority={isLCP ? 'high' : 'auto'}
+                    loading={isLCP ? 'eager' : 'lazy'}
+                />
             </div>
         </motion.div>
     );
