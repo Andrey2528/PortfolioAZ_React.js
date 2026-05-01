@@ -10,3 +10,5 @@
 /dist/index.html
 .vercel
 .env*.local
+
+*.png
