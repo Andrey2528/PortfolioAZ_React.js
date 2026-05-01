@@ -53,7 +53,7 @@ const PortfolioCard = ({
                             ? `${thumbSm} 480w, ${thumb || img} 900w`
                             : undefined
                     }
-                    sizes="(max-width: 500px) 480px, 900px"
+                    sizes="(max-width: 500px) 100vw, (max-width: 768px) 50vw, (max-width: 960px) 25vw, 400px"
                     alt=""
                     className="card__img"
                     fetchPriority={isLCP ? 'high' : 'auto'}
