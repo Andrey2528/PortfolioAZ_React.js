@@ -1,21 +1,38 @@
 import i18next from '@/i18n';
 import img1 from '@/assets/images/portfolioIMG/portfolioImg1.webp';
+import thumb1 from '@/assets/images/portfolioIMG/portfolioImg1.webp?w=900&format=webp';
 import img2 from '@/assets/images/portfolioIMG/portfolioImg2.webp';
+import thumb2 from '@/assets/images/portfolioIMG/portfolioImg2.webp?w=900&format=webp';
 import img3 from '@/assets/images/portfolioIMG/portfolioImg3.webp';
+import thumb3 from '@/assets/images/portfolioIMG/portfolioImg3.webp?w=900&format=webp';
 import img4 from '@/assets/images/portfolioIMG/portfolioImg4.webp';
+import thumb4 from '@/assets/images/portfolioIMG/portfolioImg4.webp?w=900&format=webp';
 import img5 from '@/assets/images/portfolioIMG/portfolioImg5.webp';
+import thumb5 from '@/assets/images/portfolioIMG/portfolioImg5.webp?w=900&format=webp';
 import img6 from '@/assets/images/portfolioIMG/portfolioImg6.webp';
+import thumb6 from '@/assets/images/portfolioIMG/portfolioImg6.webp?w=900&format=webp';
 import img7 from '@/assets/images/portfolioIMG/portfolioImg7.webp';
+import thumb7 from '@/assets/images/portfolioIMG/portfolioImg7.webp?w=900&format=webp';
 import img8 from '@/assets/images/portfolioIMG/portfolioImg8.webp';
+import thumb8 from '@/assets/images/portfolioIMG/portfolioImg8.webp?w=900&format=webp';
 import img9 from '@/assets/images/portfolioIMG/portfolioImg9.webp';
+import thumb9 from '@/assets/images/portfolioIMG/portfolioImg9.webp?w=900&format=webp';
 import img10 from '@/assets/images/portfolioIMG/portfolioImg10.webp';
+import thumb10 from '@/assets/images/portfolioIMG/portfolioImg10.webp?w=900&format=webp';
 import img11 from '@/assets/images/portfolioIMG/portfolioImg11.webp';
+import thumb11 from '@/assets/images/portfolioIMG/portfolioImg11.webp?w=900&format=webp';
 import img12 from '@/assets/images/portfolioIMG/portfolioImg12.webp';
+import thumb12 from '@/assets/images/portfolioIMG/portfolioImg12.webp?w=900&format=webp';
 import img13 from '@/assets/images/portfolioIMG/portfolioImg13.webp';
+import thumb13 from '@/assets/images/portfolioIMG/portfolioImg13.webp?w=900&format=webp';
 import img14 from '@/assets/images/portfolioIMG/portfolioImg14.webp';
+import thumb14 from '@/assets/images/portfolioIMG/portfolioImg14.webp?w=900&format=webp';
 import img15 from '@/assets/images/portfolioIMG/portfolioImg15.webp';
+import thumb15 from '@/assets/images/portfolioIMG/portfolioImg15.webp?w=900&format=webp';
 import img16 from '@/assets/images/portfolioIMG/portfolioImg16.webp';
+import thumb16 from '@/assets/images/portfolioIMG/portfolioImg16.webp?w=900&format=webp';
 import img17 from '@/assets/images/portfolioIMG/portfolioImg17.webp';
+import thumb17 from '@/assets/images/portfolioIMG/portfolioImg17.webp?w=900&format=webp';
 
 export const portfolioCard = [
     {
@@ -41,6 +58,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: '',
         img: img17,
+        thumb: thumb17,
         description: i18next.t('portfolioCard.description.description17'),
     },
     {
@@ -55,6 +73,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: '',
         img: img16,
+        thumb: thumb16,
         description: i18next.t('portfolioCard.description.description16'),
     },
     {
@@ -69,6 +88,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: 'https://arcana-noctis.vercel.app/',
         img: img15,
+        thumb: thumb15,
         description: i18next.t('portfolioCard.description.description15'),
     },
     {
@@ -83,6 +103,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: 'https://skyntr.vercel.app/',
         img: img14,
+        thumb: thumb14,
         description: i18next.t('portfolioCard.description.description14'),
     },
 
@@ -109,6 +130,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: '',
         img: img13,
+        thumb: thumb13,
         description: i18next.t('portfolioCard.description.description13'),
     },
     {
@@ -134,6 +156,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: '',
         img: img12,
+        thumb: thumb12,
         description: i18next.t('portfolioCard.description.description12'),
     },
     {
@@ -159,6 +182,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: '',
         img: img11,
+        thumb: thumb11,
         description: i18next.t('portfolioCard.description.description11'),
     },
     {
@@ -184,6 +208,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: '',
         img: img10,
+        thumb: thumb10,
         description: i18next.t('portfolioCard.description.description10'),
     },
     {
@@ -210,6 +235,7 @@ export const portfolioCard = [
         url: i18next.t('portfolioCard.urlNotAviable'),
         url: '',
         img: img9,
+        thumb: thumb9,
         description: i18next.t('portfolioCard.description.description9'),
     },
     {
@@ -235,6 +261,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: 'http://sketch2site.com',
         img: img8,
+        thumb: thumb8,
         description: i18next.t('portfolioCard.description.description8'),
     },
 
@@ -271,6 +298,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type1'),
         url: 'http://batumikarting.ge',
         img: img7,
+        thumb: thumb7,
         description: i18next.t('portfolioCard.description.description7'),
     },
     {
@@ -290,6 +318,7 @@ export const portfolioCard = [
         platform: i18next.t('portfolioCard.platform2'),
         type: i18next.t('portfolioCard.type.type2'),
         img: img6,
+        thumb: thumb6,
         description: i18next.t('portfolioCard.description.description6'),
     },
     {
@@ -318,6 +347,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: i18next.t('portfolioCard.urlNotAviable'),
         img: img6,
+        thumb: thumb6,
         description: i18next.t('portfolioCard.description.description6'),
         timeToEndWork: '15' + ' ' + i18next.t('portfolioCard.timeWork.Hours2'),
     },
@@ -352,6 +382,7 @@ export const portfolioCard = [
         platform: i18next.t('portfolioCard.platform2'),
         type: i18next.t('portfolioCard.type.type3'),
         img: img5,
+        thumb: thumb5,
         description: i18next.t('portfolioCard.description.description5'),
     },
     {
@@ -378,6 +409,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: 'https://andrey2528.github.io/people-taback/',
         img: img4,
+        thumb: thumb4,
         description: i18next.t('portfolioCard.description.description4'),
     },
     {
@@ -408,6 +440,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type3'),
         url: 'https://fairpartner.pl/',
         img: img3,
+        thumb: thumb3,
         description: i18next.t('portfolioCard.description.description3'),
         timeToEndWork: '20' + ' ' + i18next.t('portfolioCard.timeWork.Hours2'),
     },
@@ -432,6 +465,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: i18next.t('portfolioCard.urlNotAviable'),
         img: img2,
+        thumb: thumb2,
         description: i18next.t('portfolioCard.description.description2'),
     },
     {
@@ -446,6 +480,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type2'),
         url: i18next.t('portfolioCard.urlNotAviable'),
         img: img1,
+        thumb: thumb1,
         description: i18next.t('portfolioCard.description.description1'),
     },
 ];

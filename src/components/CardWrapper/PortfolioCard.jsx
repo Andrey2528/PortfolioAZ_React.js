@@ -8,6 +8,7 @@ const PortfolioCard = ({
     subTitle,
     number,
     img,
+    thumb,
     openModal,
     index = 0,
 }) => {
@@ -43,7 +44,7 @@ const PortfolioCard = ({
                 <span className="card__number card__desc">{number}</span>
             </div>
             <div className="card__miniature">
-                <img src={img} alt="" className="card__img" />
+                <img src={thumb || img} alt="" className="card__img" />
             </div>
         </motion.div>
     );

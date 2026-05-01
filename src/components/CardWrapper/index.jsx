@@ -38,6 +38,7 @@ const CardWrapper = () => {
                         subTitle={card.subTitle}
                         number={card.id}
                         img={card.img}
+                        thumb={card.thumb}
                         year={card.year}
                         design={card.design}
                         role={card.role}
