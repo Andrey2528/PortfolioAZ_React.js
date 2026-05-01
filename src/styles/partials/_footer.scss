@@ -37,4 +37,16 @@
         flex-direction: row;
         column-gap: 10px;
     }
+
+    &__img-wrapper {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+
+        img {
+            width: 24px;
+            height: 24px;
+            display: block;
+        }
+    }
 }

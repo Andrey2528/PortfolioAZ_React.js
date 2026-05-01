@@ -9,6 +9,7 @@ const PortfolioCard = ({
     number,
     img,
     thumb,
+    thumbSm,
     openModal,
     index = 0,
     isLCP = false,
@@ -47,6 +48,12 @@ const PortfolioCard = ({
             <div className="card__miniature">
                 <img
                     src={thumb || img}
+                    srcSet={
+                        thumbSm
+                            ? `${thumbSm} 480w, ${thumb || img} 900w`
+                            : undefined
+                    }
+                    sizes="(max-width: 500px) 480px, 900px"
                     alt=""
                     className="card__img"
                     fetchPriority={isLCP ? 'high' : 'auto'}

@@ -1,14 +1,11 @@
-.header{
-    .container{
+.header {
+    .container {}
 
-    }
-    .logo{
+    .logo {}
 
-    }
-
-    .main{
-        &__title{
-            
+    .main {
+        &__title {
+            min-height: 1.2em;
         }
     }
 }

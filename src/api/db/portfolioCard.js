@@ -1,38 +1,55 @@
 import i18next from '@/i18n';
 import img1 from '@/assets/images/portfolioIMG/portfolioImg1.webp';
 import thumb1 from '@/assets/images/portfolioIMG/portfolioImg1.webp?w=900&format=webp';
+import thumbSm1 from '@/assets/images/portfolioIMG/portfolioImg1.webp?w=480&format=webp';
 import img2 from '@/assets/images/portfolioIMG/portfolioImg2.webp';
 import thumb2 from '@/assets/images/portfolioIMG/portfolioImg2.webp?w=900&format=webp';
+import thumbSm2 from '@/assets/images/portfolioIMG/portfolioImg2.webp?w=480&format=webp';
 import img3 from '@/assets/images/portfolioIMG/portfolioImg3.webp';
 import thumb3 from '@/assets/images/portfolioIMG/portfolioImg3.webp?w=900&format=webp';
+import thumbSm3 from '@/assets/images/portfolioIMG/portfolioImg3.webp?w=480&format=webp';
 import img4 from '@/assets/images/portfolioIMG/portfolioImg4.webp';
 import thumb4 from '@/assets/images/portfolioIMG/portfolioImg4.webp?w=900&format=webp';
+import thumbSm4 from '@/assets/images/portfolioIMG/portfolioImg4.webp?w=480&format=webp';
 import img5 from '@/assets/images/portfolioIMG/portfolioImg5.webp';
 import thumb5 from '@/assets/images/portfolioIMG/portfolioImg5.webp?w=900&format=webp';
+import thumbSm5 from '@/assets/images/portfolioIMG/portfolioImg5.webp?w=480&format=webp';
 import img6 from '@/assets/images/portfolioIMG/portfolioImg6.webp';
 import thumb6 from '@/assets/images/portfolioIMG/portfolioImg6.webp?w=900&format=webp';
+import thumbSm6 from '@/assets/images/portfolioIMG/portfolioImg6.webp?w=480&format=webp';
 import img7 from '@/assets/images/portfolioIMG/portfolioImg7.webp';
 import thumb7 from '@/assets/images/portfolioIMG/portfolioImg7.webp?w=900&format=webp';
+import thumbSm7 from '@/assets/images/portfolioIMG/portfolioImg7.webp?w=480&format=webp';
 import img8 from '@/assets/images/portfolioIMG/portfolioImg8.webp';
 import thumb8 from '@/assets/images/portfolioIMG/portfolioImg8.webp?w=900&format=webp';
+import thumbSm8 from '@/assets/images/portfolioIMG/portfolioImg8.webp?w=480&format=webp';
 import img9 from '@/assets/images/portfolioIMG/portfolioImg9.webp';
 import thumb9 from '@/assets/images/portfolioIMG/portfolioImg9.webp?w=900&format=webp';
+import thumbSm9 from '@/assets/images/portfolioIMG/portfolioImg9.webp?w=480&format=webp';
 import img10 from '@/assets/images/portfolioIMG/portfolioImg10.webp';
 import thumb10 from '@/assets/images/portfolioIMG/portfolioImg10.webp?w=900&format=webp';
+import thumbSm10 from '@/assets/images/portfolioIMG/portfolioImg10.webp?w=480&format=webp';
 import img11 from '@/assets/images/portfolioIMG/portfolioImg11.webp';
 import thumb11 from '@/assets/images/portfolioIMG/portfolioImg11.webp?w=900&format=webp';
+import thumbSm11 from '@/assets/images/portfolioIMG/portfolioImg11.webp?w=480&format=webp';
 import img12 from '@/assets/images/portfolioIMG/portfolioImg12.webp';
 import thumb12 from '@/assets/images/portfolioIMG/portfolioImg12.webp?w=900&format=webp';
+import thumbSm12 from '@/assets/images/portfolioIMG/portfolioImg12.webp?w=480&format=webp';
 import img13 from '@/assets/images/portfolioIMG/portfolioImg13.webp';
 import thumb13 from '@/assets/images/portfolioIMG/portfolioImg13.webp?w=900&format=webp';
+import thumbSm13 from '@/assets/images/portfolioIMG/portfolioImg13.webp?w=480&format=webp';
 import img14 from '@/assets/images/portfolioIMG/portfolioImg14.webp';
 import thumb14 from '@/assets/images/portfolioIMG/portfolioImg14.webp?w=900&format=webp';
+import thumbSm14 from '@/assets/images/portfolioIMG/portfolioImg14.webp?w=480&format=webp';
 import img15 from '@/assets/images/portfolioIMG/portfolioImg15.webp';
 import thumb15 from '@/assets/images/portfolioIMG/portfolioImg15.webp?w=900&format=webp';
+import thumbSm15 from '@/assets/images/portfolioIMG/portfolioImg15.webp?w=480&format=webp';
 import img16 from '@/assets/images/portfolioIMG/portfolioImg16.webp';
 import thumb16 from '@/assets/images/portfolioIMG/portfolioImg16.webp?w=900&format=webp';
+import thumbSm16 from '@/assets/images/portfolioIMG/portfolioImg16.webp?w=480&format=webp';
 import img17 from '@/assets/images/portfolioIMG/portfolioImg17.webp';
 import thumb17 from '@/assets/images/portfolioIMG/portfolioImg17.webp?w=900&format=webp';
+import thumbSm17 from '@/assets/images/portfolioIMG/portfolioImg17.webp?w=480&format=webp';
 
 export const portfolioCard = [
     {
@@ -59,6 +76,7 @@ export const portfolioCard = [
         url: '',
         img: img17,
         thumb: thumb17,
+        thumbSm: thumbSm17,
         description: i18next.t('portfolioCard.description.description17'),
     },
     {
@@ -74,6 +92,7 @@ export const portfolioCard = [
         url: '',
         img: img16,
         thumb: thumb16,
+        thumbSm: thumbSm16,
         description: i18next.t('portfolioCard.description.description16'),
     },
     {
@@ -89,6 +108,7 @@ export const portfolioCard = [
         url: 'https://arcana-noctis.vercel.app/',
         img: img15,
         thumb: thumb15,
+        thumbSm: thumbSm15,
         description: i18next.t('portfolioCard.description.description15'),
     },
     {
@@ -104,6 +124,7 @@ export const portfolioCard = [
         url: 'https://skyntr.vercel.app/',
         img: img14,
         thumb: thumb14,
+        thumbSm: thumbSm14,
         description: i18next.t('portfolioCard.description.description14'),
     },
 
@@ -131,6 +152,7 @@ export const portfolioCard = [
         url: '',
         img: img13,
         thumb: thumb13,
+        thumbSm: thumbSm13,
         description: i18next.t('portfolioCard.description.description13'),
     },
     {
@@ -157,6 +179,7 @@ export const portfolioCard = [
         url: '',
         img: img12,
         thumb: thumb12,
+        thumbSm: thumbSm12,
         description: i18next.t('portfolioCard.description.description12'),
     },
     {
@@ -183,6 +206,7 @@ export const portfolioCard = [
         url: '',
         img: img11,
         thumb: thumb11,
+        thumbSm: thumbSm11,
         description: i18next.t('portfolioCard.description.description11'),
     },
     {
@@ -209,6 +233,7 @@ export const portfolioCard = [
         url: '',
         img: img10,
         thumb: thumb10,
+        thumbSm: thumbSm10,
         description: i18next.t('portfolioCard.description.description10'),
     },
     {
@@ -236,6 +261,7 @@ export const portfolioCard = [
         url: '',
         img: img9,
         thumb: thumb9,
+        thumbSm: thumbSm9,
         description: i18next.t('portfolioCard.description.description9'),
     },
     {
@@ -262,6 +288,7 @@ export const portfolioCard = [
         url: 'http://sketch2site.com',
         img: img8,
         thumb: thumb8,
+        thumbSm: thumbSm8,
         description: i18next.t('portfolioCard.description.description8'),
     },
 
@@ -299,6 +326,7 @@ export const portfolioCard = [
         url: 'http://batumikarting.ge',
         img: img7,
         thumb: thumb7,
+        thumbSm: thumbSm7,
         description: i18next.t('portfolioCard.description.description7'),
     },
     {
@@ -319,6 +347,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type.type2'),
         img: img6,
         thumb: thumb6,
+        thumbSm: thumbSm6,
         description: i18next.t('portfolioCard.description.description6'),
     },
     {
@@ -353,6 +382,7 @@ export const portfolioCard = [
         type: i18next.t('portfolioCard.type.type3'),
         img: img5,
         thumb: thumb5,
+        thumbSm: thumbSm5,
         description: i18next.t('portfolioCard.description.description5'),
     },
     {
@@ -380,6 +410,7 @@ export const portfolioCard = [
         url: 'https://andrey2528.github.io/people-taback/',
         img: img4,
         thumb: thumb4,
+        thumbSm: thumbSm4,
         description: i18next.t('portfolioCard.description.description4'),
     },
     {
@@ -411,6 +442,7 @@ export const portfolioCard = [
         url: 'https://fairpartner.pl/',
         img: img3,
         thumb: thumb3,
+        thumbSm: thumbSm3,
         description: i18next.t('portfolioCard.description.description3'),
         timeToEndWork: '20' + ' ' + i18next.t('portfolioCard.timeWork.Hours2'),
     },
@@ -436,6 +468,7 @@ export const portfolioCard = [
         url: i18next.t('portfolioCard.urlNotAviable'),
         img: img2,
         thumb: thumb2,
+        thumbSm: thumbSm2,
         description: i18next.t('portfolioCard.description.description2'),
     },
     {
@@ -451,6 +484,7 @@ export const portfolioCard = [
         url: i18next.t('portfolioCard.urlNotAviable'),
         img: img1,
         thumb: thumb1,
+        thumbSm: thumbSm1,
         description: i18next.t('portfolioCard.description.description1'),
     },
 ];
