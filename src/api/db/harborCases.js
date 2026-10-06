@@ -16,51 +16,51 @@ import img3s from '@/assets/images/harbor/avtoschool-elita-dashboard-2.jpg?w=480
 import img4 from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=1440&format=webp';
 import img4t from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
 import img4s from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img5 from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=1440&format=webp';
-import img5t from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img5s from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img6 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=1440&format=webp';
-import img6t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img6s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img7 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=1440&format=webp';
-import img7t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img7s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img8 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=1440&format=webp';
-import img8t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img8s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img9 from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=1440&format=webp';
-import img9t from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img9s from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img10 from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=1440&format=webp';
-import img10t from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img10s from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img11 from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=1440&format=webp';
-import img11t from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img11s from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img12 from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=1440&format=webp';
-import img12t from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img12s from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img13 from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=1440&format=webp';
-import img13t from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img13s from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img14 from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=1440&format=webp';
-import img14t from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img14s from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img15 from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=1440&format=webp';
-import img15t from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img15s from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img16 from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=1440&format=webp';
-import img16t from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img16s from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img17 from '@/assets/images/harbor/sers-sers-1.png?w=1440&format=webp';
-import img17t from '@/assets/images/harbor/sers-sers-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img17s from '@/assets/images/harbor/sers-sers-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img18 from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=1440&format=webp';
-import img18t from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img18s from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img19 from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=1440&format=webp';
-import img19t from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img19s from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img5 from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=1440&format=webp';
+import img5t from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img5s from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img6 from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=1440&format=webp';
+import img6t from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img6s from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img7 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=1440&format=webp';
+import img7t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img7s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img8 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=1440&format=webp';
+import img8t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img8s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img9 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=1440&format=webp';
+import img9t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img9s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img10 from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=1440&format=webp';
+import img10t from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img10s from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img11 from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=1440&format=webp';
+import img11t from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img11s from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img12 from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=1440&format=webp';
+import img12t from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img12s from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img13 from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=1440&format=webp';
+import img13t from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img13s from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img14 from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=1440&format=webp';
+import img14t from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img14s from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img15 from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=1440&format=webp';
+import img15t from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img15s from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img16 from '@/assets/images/harbor/sers-sers-1.png?w=1440&format=webp';
+import img16t from '@/assets/images/harbor/sers-sers-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img16s from '@/assets/images/harbor/sers-sers-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img17 from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=1440&format=webp';
+import img17t from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img17s from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img18 from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=1440&format=webp';
+import img18t from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img18s from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img19 from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=1440&format=webp';
+import img19t from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img19s from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
 import img20 from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=1440&format=webp';
 import img20t from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=900&h=560&fit=cover&position=top&format=webp';
 import img20s from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=480&h=300&fit=cover&position=top&format=webp';
@@ -288,6 +288,67 @@ export const harborCases = [
     ]
   },
   {
+    "id": "01a11209-9de3-7000-8000-57ec3dab72e9",
+    "slug": "slutcraft-slut-craft",
+    "client": "SlutCraft",
+    "startedAt": "2026-07-08",
+    "endedAt": "2026-08-06",
+    "outcome": "delivered",
+    "url": "",
+    "ownDesign": false,
+    "stack": [
+      "React",
+      "Vite",
+      "Sass",
+      "i18next"
+    ],
+    "i18n": {
+      "uk": {
+        "name": "Slut Craft",
+        "summary": "Сайт гри для дорослої аудиторії: оновлення під реліз 1.0, публічна й Patreon-версії, сторінка завантажень, перевірка віку. React 18, Vite, Sass, i18next.",
+        "description": "Сайт гри для дорослої аудиторії. Доопрацював і оновив готовий сайт під реліз версії 1.0: контент, переклади, сторінка завантажень. Зробив дві версії — публічну й для Patreon.\n\nЩо на сайті:\n— Головна з розділами-главами, галереєю й блоком «Почати грати».\n— «Про нас» і сторінка завантажень зі збірками для Windows/Linux, Android і Apple та журналом змін.\n— Вікно підтвердження віку, FAQ.\n— Англійська й російська мови.\n\nСтек: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
+        "kind": "Багатосторінковий сайт",
+        "roles": [
+          "Розробник"
+        ],
+        "captions": [
+          "Головна"
+        ]
+      },
+      "en": {
+        "name": "Slut Craft",
+        "summary": "Website for a game for an adult audience: update for the 1.0 release, public and Patreon versions, downloads page, age verification. React 18, Vite, Sass, i18next.",
+        "description": "Website for a game for an adult audience. I refined and updated the existing site for the 1.0 release: content, translations, downloads page. I built two versions — public and Patreon.\n\nWhat's on the site:\n— Home with chapter sections, a gallery and a “Start playing” block.\n— “About us” and a downloads page with builds for Windows/Linux, Android and Apple, plus a changelog.\n— Age confirmation dialog, FAQ.\n— English and Russian.\n\nStack: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
+        "kind": "Multi-page website",
+        "roles": [
+          "Developer"
+        ],
+        "captions": [
+          "Home"
+        ]
+      },
+      "ru": {
+        "name": "Slut Craft",
+        "summary": "Сайт игры для взрослой аудитории: обновление к релизу 1.0, публичная и Patreon-версии, страница загрузок, проверка возраста. React 18, Vite, Sass, i18next.",
+        "description": "Сайт игры для взрослой аудитории. Доработал и обновил готовый сайт к релизу версии 1.0: контент, переводы, страница загрузок. Сделал две версии — публичную и для Patreon.\n\nЧто на сайте:\n— Главная с разделами-главами, галереей и блоком «Начать играть».\n— «О нас» и страница загрузок со сборками для Windows/Linux, Android и Apple и журналом изменений.\n— Окно подтверждения возраста, FAQ.\n— Английский и русский языки.\n\nСтек: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
+        "kind": "Многостраничный сайт",
+        "roles": [
+          "Разработчик"
+        ],
+        "captions": [
+          "Главная"
+        ]
+      }
+    },
+    "images": [
+      {
+        "img": img5,
+        "thumb": img5t,
+        "thumbSm": img5s
+      }
+    ]
+  },
+  {
     "id": "01a11209-9f32-7000-8000-a449680bb57c",
     "slug": "odessa-seaside-sait-kotedzhiv-odessa-seaside",
     "client": "Odessa Seaside",
@@ -342,9 +403,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img5,
-        "thumb": img5t,
-        "thumbSm": img5s
+        "img": img6,
+        "thumb": img6t,
+        "thumbSm": img6s
       }
     ]
   },
@@ -414,11 +475,6 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img6,
-        "thumb": img6t,
-        "thumbSm": img6s
-      },
-      {
         "img": img7,
         "thumb": img7t,
         "thumbSm": img7s
@@ -427,130 +483,11 @@ export const harborCases = [
         "img": img8,
         "thumb": img8t,
         "thumbSm": img8s
-      }
-    ]
-  },
-  {
-    "id": "01a11209-9dbe-7000-8000-ea2859672245",
-    "slug": "gta-server-gta-server-site",
-    "client": "GTA Server",
-    "startedAt": "2026-01-01",
-    "endedAt": null,
-    "outcome": "delivered",
-    "url": "",
-    "ownDesign": false,
-    "stack": [
-      "HTML",
-      "SCSS",
-      "JavaScript",
-      "jQuery",
-      "Gulp",
-      "BEM"
-    ],
-    "i18n": {
-      "uk": {
-        "name": "GTA Server site",
-        "summary": "Лендінг рольового сервера GTA 5 «Crimson Cartel»: онлайн і сервери, статистика, можливості, посилання на Discord і форум. HTML, SCSS, jQuery, Gulp.",
-        "description": "Лендінг для рольового сервера GTA 5 «Crimson Cartel»: зібрати гравців і показати, чим живе сервер.\n\nСекції:\n— Банер з онлайном і двома серверами — клік по адресі копіює її в буфер.\n— «Freedom of choice»: шлях кримінального світу або правоохоронців.\n— Галерея ігрових сцен.\n— Статистика сервера: гравці, створені персонажі, фракції, бізнеси.\n— Можливості: 300+ авто, 15+ типів бізнесу, 10+ подій.\n— Посилання на Discord, соцмережі, форум і правила.\n\nСтек: HTML, SCSS (BEM), JavaScript, jQuery, slick-слайдер, збірка Gulp.",
-        "kind": "Лендінг",
-        "roles": [
-          "Розробник"
-        ],
-        "captions": [
-          "Лендінг Crimson Cartel"
-        ]
       },
-      "en": {
-        "name": "GTA Server Website",
-        "summary": "Landing page for the GTA 5 roleplay server “Crimson Cartel”: online players and servers, stats, features, links to Discord and the forum. HTML, SCSS, jQuery, Gulp.",
-        "description": "Landing page for the GTA 5 roleplay server “Crimson Cartel”: to attract players and show what life on the server is like.\n\nSections:\n— Banner with the online count and two servers — clicking an address copies it to the clipboard.\n— “Freedom of choice”: the path of the criminal world or of law enforcement.\n— Gallery of in-game scenes.\n— Server stats: players, characters created, factions, businesses.\n— Features: 300+ cars, 15+ business types, 10+ events.\n— Links to Discord, social media, the forum and the rules.\n\nStack: HTML, SCSS (BEM), JavaScript, jQuery, slick slider, Gulp build.",
-        "kind": "Landing page",
-        "roles": [
-          "Developer"
-        ],
-        "captions": [
-          "Crimson Cartel landing page"
-        ]
-      },
-      "ru": {
-        "name": "GTA Server site",
-        "summary": "Лендинг ролевого сервера GTA 5 «Crimson Cartel»: онлайн и серверы, статистика, возможности, ссылки на Discord и форум. HTML, SCSS, jQuery, Gulp.",
-        "description": "Лендинг для ролевого сервера GTA 5 «Crimson Cartel»: собрать игроков и показать, чем живёт сервер.\n\nСекции:\n— Баннер с онлайном и двумя серверами — клик по адресу копирует его в буфер обмена.\n— «Freedom of choice»: путь криминального мира или правоохранителей.\n— Галерея игровых сцен.\n— Статистика сервера: игроки, созданные персонажи, фракции, бизнесы.\n— Возможности: 300+ авто, 15+ типов бизнеса, 10+ событий.\n— Ссылки на Discord, соцсети, форум и правила.\n\nСтек: HTML, SCSS (BEM), JavaScript, jQuery, slick-слайдер, сборка Gulp.",
-        "kind": "Лендинг",
-        "roles": [
-          "Разработчик"
-        ],
-        "captions": [
-          "Лендинг Crimson Cartel"
-        ]
-      }
-    },
-    "images": [
       {
         "img": img9,
         "thumb": img9t,
         "thumbSm": img9s
-      }
-    ]
-  },
-  {
-    "id": "01a11209-9de3-7000-8000-57ec3dab72e9",
-    "slug": "slutcraft-slut-craft",
-    "client": "SlutCraft",
-    "startedAt": "2026-01-01",
-    "endedAt": "2026-08-06",
-    "outcome": "delivered",
-    "url": "",
-    "ownDesign": false,
-    "stack": [
-      "React",
-      "Vite",
-      "Sass",
-      "i18next"
-    ],
-    "i18n": {
-      "uk": {
-        "name": "Slut Craft",
-        "summary": "Сайт гри для дорослої аудиторії: оновлення під реліз 1.0, публічна й Patreon-версії, сторінка завантажень, перевірка віку. React 18, Vite, Sass, i18next.",
-        "description": "Сайт гри для дорослої аудиторії. Доопрацював і оновив готовий сайт під реліз версії 1.0: контент, переклади, сторінка завантажень. Зробив дві версії — публічну й для Patreon.\n\nЩо на сайті:\n— Головна з розділами-главами, галереєю й блоком «Почати грати».\n— «Про нас» і сторінка завантажень зі збірками для Windows/Linux, Android і Apple та журналом змін.\n— Вікно підтвердження віку, FAQ.\n— Англійська й російська мови.\n\nСтек: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
-        "kind": "Багатосторінковий сайт",
-        "roles": [
-          "Розробник"
-        ],
-        "captions": [
-          "Головна"
-        ]
-      },
-      "en": {
-        "name": "Slut Craft",
-        "summary": "Website for a game for an adult audience: update for the 1.0 release, public and Patreon versions, downloads page, age verification. React 18, Vite, Sass, i18next.",
-        "description": "Website for a game for an adult audience. I refined and updated the existing site for the 1.0 release: content, translations, downloads page. I built two versions — public and Patreon.\n\nWhat's on the site:\n— Home with chapter sections, a gallery and a “Start playing” block.\n— “About us” and a downloads page with builds for Windows/Linux, Android and Apple, plus a changelog.\n— Age confirmation dialog, FAQ.\n— English and Russian.\n\nStack: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
-        "kind": "Multi-page website",
-        "roles": [
-          "Developer"
-        ],
-        "captions": [
-          "Home"
-        ]
-      },
-      "ru": {
-        "name": "Slut Craft",
-        "summary": "Сайт игры для взрослой аудитории: обновление к релизу 1.0, публичная и Patreon-версии, страница загрузок, проверка возраста. React 18, Vite, Sass, i18next.",
-        "description": "Сайт игры для взрослой аудитории. Доработал и обновил готовый сайт к релизу версии 1.0: контент, переводы, страница загрузок. Сделал две версии — публичную и для Patreon.\n\nЧто на сайте:\n— Главная с разделами-главами, галереей и блоком «Начать играть».\n— «О нас» и страница загрузок со сборками для Windows/Linux, Android и Apple и журналом изменений.\n— Окно подтверждения возраста, FAQ.\n— Английский и русский языки.\n\nСтек: React 18, Vite, Sass, React Router, i18next, Google Analytics 4, lightGallery.",
-        "kind": "Многостраничный сайт",
-        "roles": [
-          "Разработчик"
-        ],
-        "captions": [
-          "Главная"
-        ]
-      }
-    },
-    "images": [
-      {
-        "img": img10,
-        "thumb": img10t,
-        "thumbSm": img10s
       }
     ]
   },
@@ -620,6 +557,11 @@ export const harborCases = [
     },
     "images": [
       {
+        "img": img10,
+        "thumb": img10t,
+        "thumbSm": img10s
+      },
+      {
         "img": img11,
         "thumb": img11t,
         "thumbSm": img11s
@@ -633,11 +575,6 @@ export const harborCases = [
         "img": img13,
         "thumb": img13t,
         "thumbSm": img13s
-      },
-      {
-        "img": img14,
-        "thumb": img14t,
-        "thumbSm": img14s
       }
     ]
   },
@@ -698,9 +635,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img15,
-        "thumb": img15t,
-        "thumbSm": img15s
+        "img": img14,
+        "thumb": img14t,
+        "thumbSm": img14s
       }
     ]
   },
@@ -761,9 +698,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img16,
-        "thumb": img16t,
-        "thumbSm": img16s
+        "img": img15,
+        "thumb": img15t,
+        "thumbSm": img15s
       }
     ]
   },
@@ -824,9 +761,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img17,
-        "thumb": img17t,
-        "thumbSm": img17s
+        "img": img16,
+        "thumb": img16t,
+        "thumbSm": img16s
       }
     ]
   },
@@ -885,9 +822,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img18,
-        "thumb": img18t,
-        "thumbSm": img18s
+        "img": img17,
+        "thumb": img17t,
+        "thumbSm": img17s
       }
     ]
   },
@@ -938,6 +875,69 @@ export const harborCases = [
         ],
         "captions": [
           "Калькулятор"
+        ]
+      }
+    },
+    "images": [
+      {
+        "img": img18,
+        "thumb": img18t,
+        "thumbSm": img18s
+      }
+    ]
+  },
+  {
+    "id": "01a11209-9dbe-7000-8000-ea2859672245",
+    "slug": "gta-server-gta-server-site",
+    "client": "GTA Server",
+    "startedAt": "2023-12-15",
+    "endedAt": "2023-12-19",
+    "outcome": "delivered",
+    "url": "",
+    "ownDesign": false,
+    "stack": [
+      "HTML",
+      "SCSS",
+      "JavaScript",
+      "jQuery",
+      "Gulp",
+      "BEM"
+    ],
+    "i18n": {
+      "uk": {
+        "name": "GTA Server site",
+        "summary": "Лендінг рольового сервера GTA 5 «Crimson Cartel»: онлайн і сервери, статистика, можливості, посилання на Discord і форум. HTML, SCSS, jQuery, Gulp.",
+        "description": "Лендінг для рольового сервера GTA 5 «Crimson Cartel»: зібрати гравців і показати, чим живе сервер.\n\nСекції:\n— Банер з онлайном і двома серверами — клік по адресі копіює її в буфер.\n— «Freedom of choice»: шлях кримінального світу або правоохоронців.\n— Галерея ігрових сцен.\n— Статистика сервера: гравці, створені персонажі, фракції, бізнеси.\n— Можливості: 300+ авто, 15+ типів бізнесу, 10+ подій.\n— Посилання на Discord, соцмережі, форум і правила.\n\nСтек: HTML, SCSS (BEM), JavaScript, jQuery, slick-слайдер, збірка Gulp.",
+        "kind": "Лендінг",
+        "roles": [
+          "Розробник"
+        ],
+        "captions": [
+          "Лендінг Crimson Cartel"
+        ]
+      },
+      "en": {
+        "name": "GTA Server Website",
+        "summary": "Landing page for the GTA 5 roleplay server “Crimson Cartel”: online players and servers, stats, features, links to Discord and the forum. HTML, SCSS, jQuery, Gulp.",
+        "description": "Landing page for the GTA 5 roleplay server “Crimson Cartel”: to attract players and show what life on the server is like.\n\nSections:\n— Banner with the online count and two servers — clicking an address copies it to the clipboard.\n— “Freedom of choice”: the path of the criminal world or of law enforcement.\n— Gallery of in-game scenes.\n— Server stats: players, characters created, factions, businesses.\n— Features: 300+ cars, 15+ business types, 10+ events.\n— Links to Discord, social media, the forum and the rules.\n\nStack: HTML, SCSS (BEM), JavaScript, jQuery, slick slider, Gulp build.",
+        "kind": "Landing page",
+        "roles": [
+          "Developer"
+        ],
+        "captions": [
+          "Crimson Cartel landing page"
+        ]
+      },
+      "ru": {
+        "name": "GTA Server site",
+        "summary": "Лендинг ролевого сервера GTA 5 «Crimson Cartel»: онлайн и серверы, статистика, возможности, ссылки на Discord и форум. HTML, SCSS, jQuery, Gulp.",
+        "description": "Лендинг для ролевого сервера GTA 5 «Crimson Cartel»: собрать игроков и показать, чем живёт сервер.\n\nСекции:\n— Баннер с онлайном и двумя серверами — клик по адресу копирует его в буфер обмена.\n— «Freedom of choice»: путь криминального мира или правоохранителей.\n— Галерея игровых сцен.\n— Статистика сервера: игроки, созданные персонажи, фракции, бизнесы.\n— Возможности: 300+ авто, 15+ типов бизнеса, 10+ событий.\n— Ссылки на Discord, соцсети, форум и правила.\n\nСтек: HTML, SCSS (BEM), JavaScript, jQuery, slick-слайдер, сборка Gulp.",
+        "kind": "Лендинг",
+        "roles": [
+          "Разработчик"
+        ],
+        "captions": [
+          "Лендинг Crimson Cartel"
         ]
       }
     },
