@@ -11,7 +11,7 @@ export default defineConfig({
         },
     },
     build: {
-        minify: 'esbuild', // Включаем минификацию для продакшн-сборки
+        // Мініфікація — вбудованим oxc у Vite 8; esbuild більше не входить у Vite.
         rollupOptions: {
             output: {
                 // Функцією, а не об'єктом: так розуміють і Rollup (Vite 6),
