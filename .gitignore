@@ -12,3 +12,6 @@
 .env*.local
 
 *.png
+
+# Скріншоти з Harbor («Експорт на сайт») — частина даних сайту, а не артефакт.
+!src/assets/images/harbor/*.png
