@@ -16,75 +16,84 @@ import img3s from '@/assets/images/harbor/alp-sait-alp-kompleksnyi-remont-odnym-
 import img4 from '@/assets/images/harbor/the-linea-design-sait-studii-dyzainu-the-linea-design-1.jpg?w=1440&format=webp';
 import img4t from '@/assets/images/harbor/the-linea-design-sait-studii-dyzainu-the-linea-design-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
 import img4s from '@/assets/images/harbor/the-linea-design-sait-studii-dyzainu-the-linea-design-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img5 from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=1440&format=webp';
-import img5t from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img5s from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img6 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=1440&format=webp';
-import img6t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img6s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img7 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=1440&format=webp';
-import img7t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img7s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img8 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=1440&format=webp';
-import img8t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img8s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img9 from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=1440&format=webp';
-import img9t from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img9s from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img10 from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=1440&format=webp';
-import img10t from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img10s from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img11 from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=1440&format=webp';
-import img11t from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img11s from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img12 from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=1440&format=webp';
-import img12t from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img12s from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img13 from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=1440&format=webp';
-import img13t from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img13s from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img14 from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=1440&format=webp';
-import img14t from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img14s from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img15 from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=1440&format=webp';
-import img15t from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img15s from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img16 from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=1440&format=webp';
-import img16t from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
-import img16s from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
-import img17 from '@/assets/images/harbor/sers-sers-1.png?w=1440&format=webp';
-import img17t from '@/assets/images/harbor/sers-sers-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img17s from '@/assets/images/harbor/sers-sers-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img18 from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=1440&format=webp';
-import img18t from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img18s from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img19 from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=1440&format=webp';
-import img19t from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img19s from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img20 from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=1440&format=webp';
-import img20t from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img20s from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img21 from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=1440&format=webp';
-import img21t from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img21s from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img22 from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=1440&format=webp';
-import img22t from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img22s from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img23 from '@/assets/images/harbor/manipura-manipura-1.png?w=1440&format=webp';
-import img23t from '@/assets/images/harbor/manipura-manipura-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img23s from '@/assets/images/harbor/manipura-manipura-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img24 from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=1440&format=webp';
-import img24t from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img24s from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img25 from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=1440&format=webp';
-import img25t from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img25s from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img26 from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=1440&format=webp';
-import img26t from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img26s from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
-import img27 from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=1440&format=webp';
-import img27t from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=900&h=560&fit=cover&position=top&format=webp';
-import img27s from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img5 from '@/assets/images/harbor/avtoschool-elita-dashboard-1.jpg?w=1440&format=webp';
+import img5t from '@/assets/images/harbor/avtoschool-elita-dashboard-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img5s from '@/assets/images/harbor/avtoschool-elita-dashboard-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img6 from '@/assets/images/harbor/avtoschool-elita-dashboard-2.jpg?w=1440&format=webp';
+import img6t from '@/assets/images/harbor/avtoschool-elita-dashboard-2.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img6s from '@/assets/images/harbor/avtoschool-elita-dashboard-2.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img7 from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=1440&format=webp';
+import img7t from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img7s from '@/assets/images/harbor/avtoschool-elita-dashboard-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img8 from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=1440&format=webp';
+import img8t from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img8s from '@/assets/images/harbor/odessa-seaside-sait-kotedzhiv-odessa-seaside-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img9 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=1440&format=webp';
+import img9t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img9s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img10 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=1440&format=webp';
+import img10t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img10s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-2.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img11 from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=1440&format=webp';
+import img11t from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img11s from '@/assets/images/harbor/osobysti-proiekty-arcana-noctis-3.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img12 from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=1440&format=webp';
+import img12t from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img12s from '@/assets/images/harbor/gta-server-gta-server-site-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img13 from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=1440&format=webp';
+import img13t from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img13s from '@/assets/images/harbor/slutcraft-slut-craft-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img14 from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=1440&format=webp';
+import img14t from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img14s from '@/assets/images/harbor/osobysti-proiekty-skyntr-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img15 from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=1440&format=webp';
+import img15t from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img15s from '@/assets/images/harbor/osobysti-proiekty-skyntr-2.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img16 from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=1440&format=webp';
+import img16t from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img16s from '@/assets/images/harbor/osobysti-proiekty-skyntr-3.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img17 from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=1440&format=webp';
+import img17t from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img17s from '@/assets/images/harbor/osobysti-proiekty-skyntr-4.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img18 from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=1440&format=webp';
+import img18t from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img18s from '@/assets/images/harbor/osobysti-proiekty-andriy-zhukov-stare-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img19 from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=1440&format=webp';
+import img19t from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=900&h=560&fit=cover&position=top&format=webp';
+import img19s from '@/assets/images/harbor/biko-butik-biko-butik-1.jpg?w=480&h=300&fit=cover&position=top&format=webp';
+import img20 from '@/assets/images/harbor/sers-sers-1.png?w=1440&format=webp';
+import img20t from '@/assets/images/harbor/sers-sers-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img20s from '@/assets/images/harbor/sers-sers-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img21 from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=1440&format=webp';
+import img21t from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img21s from '@/assets/images/harbor/osobysti-proiekty-panel-administruvannia-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img22 from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=1440&format=webp';
+import img22t from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img22s from '@/assets/images/harbor/osobysti-proiekty-shashlykovyi-kalkuliator-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img23 from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=1440&format=webp';
+import img23t from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img23s from '@/assets/images/harbor/batumi-racing-club-batumi-racing-club-staryi-dyzain-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img24 from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=1440&format=webp';
+import img24t from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img24s from '@/assets/images/harbor/sketch2site-sketch2site-development-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img25 from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=1440&format=webp';
+import img25t from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img25s from '@/assets/images/harbor/fair-partner-fair-partner-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img26 from '@/assets/images/harbor/manipura-manipura-1.png?w=1440&format=webp';
+import img26t from '@/assets/images/harbor/manipura-manipura-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img26s from '@/assets/images/harbor/manipura-manipura-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img27 from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=1440&format=webp';
+import img27t from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img27s from '@/assets/images/harbor/meat-hammer-studio-meat-hammer-site-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img28 from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=1440&format=webp';
+import img28t from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img28s from '@/assets/images/harbor/people-tobacco-people-tobacco-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img29 from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=1440&format=webp';
+import img29t from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img29s from '@/assets/images/harbor/osobysti-proiekty-denis-portfolio-1.png?w=480&h=300&fit=cover&position=top&format=webp';
+import img30 from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=1440&format=webp';
+import img30t from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=900&h=560&fit=cover&position=top&format=webp';
+import img30s from '@/assets/images/harbor/osobysti-proiekty-konstruct-1.png?w=480&h=300&fit=cover&position=top&format=webp';
 
 export const harborCases = [
   {
@@ -343,6 +352,84 @@ export const harborCases = [
     ]
   },
   {
+    "id": "01a02e7c-60f9-7000-8000-f7ba4eb25385",
+    "slug": "avtoschool-elita-dashboard",
+    "client": "Авштошкола \"Еліта\"",
+    "startedAt": "2026-08-10",
+    "endedAt": null,
+    "outcome": null,
+    "url": "",
+    "ownDesign": true,
+    "stack": [
+      "PHP",
+      "PostgreSQL",
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "i18n": {
+      "uk": {
+        "name": "Дашборд «Ніка»",
+        "summary": "Аналітична панель автошколи ELITA: ліди, маркетинг, продажі, дзвінки й гроші з семи джерел в одному місці — від реклами до оплати. PHP, PostgreSQL, React.",
+        "description": "«Ніка» — аналітична панель автошколи ELITA (Ташкент), на якій видно всі дані про ліди, маркетинг, продажі й гроші. Дані з семи джерел зводяться навколо клієнта: від реклами до оплати.\n\nЩо вміє:\n— Ліди з усіх каналів: лідформи Facebook, квіз, сайт, Telegram-бот, Instagram Direct, дзвінки, візити.\n— Маркетинг: Meta й Google Ads до рівня оголошення, Instagram, сайт (власний трекер), карти, креативи, причини відмов.\n— Продажі: воронка, угоди, менеджери, дебіторка, дзвінки.\n— Розшифровка дзвінків (~4 500 на місяць) з перекладом з узбецької на російську і розбір, «про що говорили».\n— Гроші, порівняння періодів, якість даних, стан інтеграцій.\n— Оновлення: повний звіт щогодини, CRM кожні 15 хвилин, щоденна перебудова; щомісячний звіт у Google Sheets.\n— Працює як PWA на телефоні.\n\nІнтеграції: Бітрікс24, Meta Lead Ads / Marketing API / Instagram Graph, АТС, Google Sheets, Speech-to-Text, Cloud Translation, Vertex AI, курси ЦБ Узбекистану, Telegram, застосунок ELITA.\n\nСтек: PHP 8.3 без фреймворку, PostgreSQL 16 (Row Level Security, партиціонування), React 19 + TypeScript + Vite, власні SVG-графіки й роутер.\n\nМасштаб: понад 380 комітів за два місяці, ~75 тис. рядків PHP, ~29 тис. рядків TypeScript, 100+ міграцій, 50+ документів.\n\nНа основі дашборду з'явився продукт «Ніка» для інших бізнесів — є демо-версія з вигаданими даними.",
+        "kind": "Веб-застосунок",
+        "roles": [
+          "Розробник"
+        ],
+        "captions": [
+          "Загальний звіт (демо-дані)",
+          "Маркетинг: канали й ціна ліда (демо-дані)",
+          "Гроші: продажі, оплати, борг (демо-дані)"
+        ]
+      },
+      "en": {
+        "name": "Nika Dashboard",
+        "summary": "Analytics dashboard for the ELITA driving school: leads, marketing, sales, calls and money from seven sources in one place — from ad to payment. PHP, PostgreSQL, React.",
+        "description": "Nika is the analytics dashboard of the ELITA driving school (Tashkent) that shows all data on leads, marketing, sales and money. Data from seven sources is brought together around the customer: from the ad to the payment.\n\nWhat it does:\n— Leads from every channel: Facebook lead forms, quiz, website, Telegram bot, Instagram Direct, calls, walk-ins.\n— Marketing: Meta and Google Ads down to the individual ad, Instagram, website (own tracker), maps, creatives, reasons for rejection.\n— Sales: funnel, deals, managers, receivables, calls.\n— Call transcription (~4,500 per month) with translation from Uzbek to Russian and a breakdown of “what was discussed”.\n— Money, period comparison, data quality, integration status.\n— Updates: full report every hour, CRM every 15 minutes, daily rebuild; monthly report in Google Sheets.\n— Works as a PWA on the phone.\n\nIntegrations: Bitrix24, Meta Lead Ads / Marketing API / Instagram Graph, PBX, Google Sheets, Speech-to-Text, Cloud Translation, Vertex AI, Central Bank of Uzbekistan exchange rates, Telegram, the ELITA app.\n\nStack: PHP 8.3 without a framework, PostgreSQL 16 (Row Level Security, partitioning), React 19 + TypeScript + Vite, custom SVG charts and router.\n\nScope: 380+ commits in two months, ~75k lines of PHP, ~29k lines of TypeScript, 100+ migrations, 50+ documents.\n\nThe dashboard grew into Nika, a product for other businesses — there is a demo version with made-up data.",
+        "kind": "Web application",
+        "roles": [
+          "Developer"
+        ],
+        "captions": [
+          "Overview report (demo data)",
+          "Marketing: channels and cost per lead (demo data)",
+          "Money: sales, payments, debt (demo data)"
+        ]
+      },
+      "ru": {
+        "name": "Дашборд «Ника»",
+        "summary": "Аналитическая панель автошколы ELITA: лиды, маркетинг, продажи, звонки и деньги из семи источников в одном месте — от рекламы до оплаты. PHP, PostgreSQL, React.",
+        "description": "«Ника» — аналитическая панель автошколы ELITA (Ташкент), на которой видны все данные о лидах, маркетинге, продажах и деньгах. Данные из семи источников сводятся вокруг клиента: от рекламы до оплаты.\n\nЧто умеет:\n— Лиды из всех каналов: лид-формы Facebook, квиз, сайт, Telegram-бот, Instagram Direct, звонки, визиты.\n— Маркетинг: Meta и Google Ads до уровня объявления, Instagram, сайт (собственный трекер), карты, креативы, причины отказов.\n— Продажи: воронка, сделки, менеджеры, дебиторка, звонки.\n— Расшифровка звонков (~4 500 в месяц) с переводом с узбекского на русский и разбор «о чём говорили».\n— Деньги, сравнение периодов, качество данных, состояние интеграций.\n— Обновление: полный отчёт каждый час, CRM каждые 15 минут, ежедневная пересборка; ежемесячный отчёт в Google Sheets.\n— Работает как PWA на телефоне.\n\nИнтеграции: Битрикс24, Meta Lead Ads / Marketing API / Instagram Graph, АТС, Google Sheets, Speech-to-Text, Cloud Translation, Vertex AI, курсы ЦБ Узбекистана, Telegram, приложение ELITA.\n\nСтек: PHP 8.3 без фреймворка, PostgreSQL 16 (Row Level Security, партиционирование), React 19 + TypeScript + Vite, собственные SVG-графики и роутер.\n\nОбъём: более 380 коммитов за два месяца, ~75 тыс. строк PHP, ~29 тыс. строк TypeScript, 100+ миграций, 50+ документов.\n\nНа основе дашборда появился продукт «Ника» для других бизнесов — есть демо-версия с вымышленными данными.",
+        "kind": "Веб-приложение",
+        "roles": [
+          "Разработчик"
+        ],
+        "captions": [
+          "Общий отчёт (демо-данные)",
+          "Маркетинг: каналы и цена лида (демо-данные)",
+          "Деньги: продажи, оплаты, долг (демо-данные)"
+        ]
+      }
+    },
+    "images": [
+      {
+        "img": img5,
+        "thumb": img5t,
+        "thumbSm": img5s
+      },
+      {
+        "img": img6,
+        "thumb": img6t,
+        "thumbSm": img6s
+      },
+      {
+        "img": img7,
+        "thumb": img7t,
+        "thumbSm": img7s
+      }
+    ]
+  },
+  {
     "id": "01a11209-9f32-7000-8000-a449680bb57c",
     "slug": "odessa-seaside-sait-kotedzhiv-odessa-seaside",
     "client": "Odessa Seaside",
@@ -397,9 +484,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img5,
-        "thumb": img5t,
-        "thumbSm": img5s
+        "img": img8,
+        "thumb": img8t,
+        "thumbSm": img8s
       }
     ]
   },
@@ -469,19 +556,19 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img6,
-        "thumb": img6t,
-        "thumbSm": img6s
+        "img": img9,
+        "thumb": img9t,
+        "thumbSm": img9s
       },
       {
-        "img": img7,
-        "thumb": img7t,
-        "thumbSm": img7s
+        "img": img10,
+        "thumb": img10t,
+        "thumbSm": img10s
       },
       {
-        "img": img8,
-        "thumb": img8t,
-        "thumbSm": img8s
+        "img": img11,
+        "thumb": img11t,
+        "thumbSm": img11s
       }
     ]
   },
@@ -542,9 +629,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img9,
-        "thumb": img9t,
-        "thumbSm": img9s
+        "img": img12,
+        "thumb": img12t,
+        "thumbSm": img12s
       }
     ]
   },
@@ -603,9 +690,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img10,
-        "thumb": img10t,
-        "thumbSm": img10s
+        "img": img13,
+        "thumb": img13t,
+        "thumbSm": img13s
       }
     ]
   },
@@ -675,24 +762,24 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img11,
-        "thumb": img11t,
-        "thumbSm": img11s
-      },
-      {
-        "img": img12,
-        "thumb": img12t,
-        "thumbSm": img12s
-      },
-      {
-        "img": img13,
-        "thumb": img13t,
-        "thumbSm": img13s
-      },
-      {
         "img": img14,
         "thumb": img14t,
         "thumbSm": img14s
+      },
+      {
+        "img": img15,
+        "thumb": img15t,
+        "thumbSm": img15s
+      },
+      {
+        "img": img16,
+        "thumb": img16t,
+        "thumbSm": img16s
+      },
+      {
+        "img": img17,
+        "thumb": img17t,
+        "thumbSm": img17s
       }
     ]
   },
@@ -753,9 +840,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img15,
-        "thumb": img15t,
-        "thumbSm": img15s
+        "img": img18,
+        "thumb": img18t,
+        "thumbSm": img18s
       }
     ]
   },
@@ -816,9 +903,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img16,
-        "thumb": img16t,
-        "thumbSm": img16s
+        "img": img19,
+        "thumb": img19t,
+        "thumbSm": img19s
       }
     ]
   },
@@ -879,9 +966,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img17,
-        "thumb": img17t,
-        "thumbSm": img17s
+        "img": img20,
+        "thumb": img20t,
+        "thumbSm": img20s
       }
     ]
   },
@@ -940,9 +1027,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img18,
-        "thumb": img18t,
-        "thumbSm": img18s
+        "img": img21,
+        "thumb": img21t,
+        "thumbSm": img21s
       }
     ]
   },
@@ -998,9 +1085,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img19,
-        "thumb": img19t,
-        "thumbSm": img19s
+        "img": img22,
+        "thumb": img22t,
+        "thumbSm": img22s
       }
     ]
   },
@@ -1066,9 +1153,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img20,
-        "thumb": img20t,
-        "thumbSm": img20s
+        "img": img23,
+        "thumb": img23t,
+        "thumbSm": img23s
       }
     ]
   },
@@ -1129,9 +1216,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img21,
-        "thumb": img21t,
-        "thumbSm": img21s
+        "img": img24,
+        "thumb": img24t,
+        "thumbSm": img24s
       }
     ]
   },
@@ -1198,9 +1285,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img22,
-        "thumb": img22t,
-        "thumbSm": img22s
+        "img": img25,
+        "thumb": img25t,
+        "thumbSm": img25s
       }
     ]
   },
@@ -1265,9 +1352,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img23,
-        "thumb": img23t,
-        "thumbSm": img23s
+        "img": img26,
+        "thumb": img26t,
+        "thumbSm": img26s
       }
     ]
   },
@@ -1336,9 +1423,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img24,
-        "thumb": img24t,
-        "thumbSm": img24s
+        "img": img27,
+        "thumb": img27t,
+        "thumbSm": img27s
       }
     ]
   },
@@ -1401,9 +1488,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img25,
-        "thumb": img25t,
-        "thumbSm": img25s
+        "img": img28,
+        "thumb": img28t,
+        "thumbSm": img28s
       }
     ]
   },
@@ -1460,9 +1547,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img26,
-        "thumb": img26t,
-        "thumbSm": img26s
+        "img": img29,
+        "thumb": img29t,
+        "thumbSm": img29s
       }
     ]
   },
@@ -1522,9 +1609,9 @@ export const harborCases = [
     },
     "images": [
       {
-        "img": img27,
-        "thumb": img27t,
-        "thumbSm": img27s
+        "img": img30,
+        "thumb": img30t,
+        "thumbSm": img30s
       }
     ]
   }
