@@ -1,10 +1,11 @@
 import '@/styles/index.scss';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 const Modal = ({ onClose, card }) => {
     const { t } = useTranslation();
+    const [shown, setShown] = useState(0);
     if (!card) return null;
 
     const {
@@ -19,9 +20,12 @@ const Modal = ({ onClose, card }) => {
         platform,
         type,
         url,
+        summary,
         description,
+        gallery = [],
         timeToEndWork,
     } = card;
+    const current = gallery[shown] ?? { img, caption: '' };
 
     const renderList = (items, className) =>
         items.length > 0 ? (
@@ -58,9 +62,11 @@ const Modal = ({ onClose, card }) => {
                 </a>
             ),
         },
-        { label: t('modal.description'), value: description },
-        { label: t('portfolioCard.timeWork.title'), value: timeToEndWork },
-    ].filter(Boolean);
+        timeToEndWork && {
+            label: t('portfolioCard.timeWork.title'),
+            value: timeToEndWork,
+        },
+    ].filter((item) => item && item.value);
 
     useEffect(() => {
         document.body.classList.add('body-lock');
@@ -92,7 +98,36 @@ const Modal = ({ onClose, card }) => {
                     ease: 'easeOut',
                 }}
             >
-                <img src={img} alt={title} className="modal__img" />
+                {/* Повносторінковий скріншот високий — гортається тут, а не
+                    стискається в смужку; інші скріншоти кейсу — мініатюрами. */}
+                <div className="modal__media">
+                    <div className="modal__viewport">
+                        <img
+                            key={current.img}
+                            src={current.img}
+                            alt={current.caption || title}
+                            className="modal__img"
+                        />
+                    </div>
+                    {current.caption && (
+                        <p className="modal__caption card__desc">{current.caption}</p>
+                    )}
+                    {gallery.length > 1 && (
+                        <div className="modal__thumbs">
+                            {gallery.map((image, index) => (
+                                <button
+                                    key={image.img}
+                                    type="button"
+                                    className={`modal__thumb ${index === shown ? 'is-active' : ''}`}
+                                    onClick={() => setShown(index)}
+                                    title={image.caption}
+                                >
+                                    <img src={image.thumbSm || image.thumb} alt={image.caption} />
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </div>
                 <div className="modal__column">
                     <button className="modal__close" onClick={onClose}>
                         <span></span>
@@ -116,6 +151,16 @@ const Modal = ({ onClose, card }) => {
                             <span className="navbar__nav__link">{value}</span>
                         </motion.div>
                     ))}
+                    {(description || summary) && (
+                        <div className="modal__story">
+                            <p className="card__number card__desc">
+                                {t('modal.description')}:
+                            </p>
+                            <p className="modal__text navbar__nav__link">
+                                {description || summary}
+                            </p>
+                        </div>
+                    )}
                 </div>
             </motion.div>
         </motion.div>

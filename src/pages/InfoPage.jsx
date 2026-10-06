@@ -6,12 +6,12 @@ import Loader from '@/components/Loader';
 import { infoSettings, skillCategories } from '@/api/db/infoSettings';
 import { skills as skillsData } from '@/api/db/skills';
 import { experienceData as experienceDataDB } from '@/api/db/experience';
-import { portfolioCard } from '@/api/db/portfolioCard';
+import { getCards } from '@/api/db/cards';
 
 import logo from '@/assets/images/logo.png';
 
 const InfoPage = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const navigate = useNavigate();
     const [skills, setSkills] = useState([]);
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -53,7 +53,7 @@ const InfoPage = () => {
                 setSkills(mappedSkills);
 
                 // Завантаження проектів портфоліо
-                setPortfolioProjects(portfolioCard);
+                setPortfolioProjects(getCards(i18n.language));
             } catch (error) {
                 console.error('Error loading InfoPage data:', error);
             } finally {

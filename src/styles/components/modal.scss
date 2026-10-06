@@ -60,10 +60,90 @@
         padding-bottom: 2px;
     }
 
+    // Ліва половина: скріншот кейсу, що гортається, і мініатюри.
+    &__media {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 55%;
+        min-width: 0;
+        margin-right: 20px;
+
+        @media (max-width: vars.$maxMobile) {
+            flex: none;
+            margin-right: 0;
+        }
+    }
+
+    &__viewport {
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+        border-radius: vars.$border_radius_main;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0;
+            max-height: none;
+        }
+
+        @media (max-width: vars.$maxMobile) {
+            max-height: 50vh;
+        }
+    }
+
+    &__caption {
+        margin-top: 8px;
+    }
+
+    &__thumbs {
+        display: flex;
+        gap: 8px;
+        margin-top: 10px;
+        overflow-x: auto;
+    }
+
+    &__thumb {
+        flex: 0 0 96px;
+        padding: 0;
+        border: 2px solid transparent;
+        border-radius: 6px;
+        background: none;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.2s ease;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0;
+            border-radius: 4px;
+        }
+
+        &.is-active,
+        &:hover {
+            opacity: 1;
+            border-color: currentColor;
+        }
+    }
+
+    // Довгий опис кейсу — окремим блоком: у рядок «мітка: значення» він не влазить.
+    &__story {
+        margin-top: 10px;
+    }
+
+    &__text {
+        margin-top: 8px;
+        white-space: pre-line;
+        line-height: 1.6;
+    }
+
     &__column {
         display: flex;
         flex-direction: column;
         width: 100%;
+        min-width: 0;
+        overflow-y: auto;
         padding-right: 30px;
 
         @media (max-width: vars.$maxTablet) {

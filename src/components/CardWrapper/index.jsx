@@ -1,13 +1,19 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import Modal from '@/shared/components/CardModal';
 import PortfolioCard from './PortfolioCard';
-import { portfolioCard } from '@/api/db/portfolioCard';
+import { getCards } from '@/api/db/cards';
 
 const CardWrapper = () => {
     const [selectedCard, setSelectedCard] = useState(null);
+    const { i18n } = useTranslation();
 
-    const sortedCards = portfolioCard.sort((a, b) => b.year - a.year);
+    // Картки — з кейсів Harbor поточною мовою; перемкнули мову — перебудували.
+    const sortedCards = useMemo(
+        () => [...getCards(i18n.language)].sort((a, b) => b.year - a.year),
+        [i18n.language],
+    );
 
     const openModal = (card) => {
         setSelectedCard(card);

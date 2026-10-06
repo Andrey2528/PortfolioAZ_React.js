@@ -14,10 +14,14 @@ export default defineConfig({
         minify: 'esbuild', // Включаем минификацию для продакшн-сборки
         rollupOptions: {
             output: {
-                manualChunks: {
-                    react: ['react', 'react-dom', 'react-router-dom'],
-                    motion: ['framer-motion'],
-                    i18n: ['i18next', 'react-i18next'],
+                // Функцією, а не об'єктом: так розуміють і Rollup (Vite 6),
+                // і Rolldown (Vite 8), який об'єктну форму не приймає.
+                manualChunks(id) {
+                    if (!id.includes('node_modules')) return undefined;
+                    if (/[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/.test(id)) return 'react';
+                    if (id.includes('framer-motion') || id.includes('motion-dom') || id.includes('motion-utils')) return 'motion';
+                    if (id.includes('i18next')) return 'i18n';
+                    return undefined;
                 },
             },
         },
